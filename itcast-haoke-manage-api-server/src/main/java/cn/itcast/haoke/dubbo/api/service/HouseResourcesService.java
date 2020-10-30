@@ -12,8 +12,7 @@ public class HouseResourcesService {
     private ApiHouseResourcesService apiHouseResourcesService;
 
     public boolean save(HouseResources houseResources) {
-        int result =
-                this.apiHouseResourcesService.saveHouseResources(houseResources);
+        int result = this.apiHouseResourcesService.saveHouseResources(houseResources);
         return result == 1;
     }
 }

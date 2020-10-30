@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
-@Service
+@Service // 这是一个spring服务
 public class HouseResourcesServiceImpl extends BaseServiceImpl implements HouseResourcesService {
 
     /**

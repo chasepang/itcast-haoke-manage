@@ -5,7 +5,7 @@ import cn.itcast.haoke.dubbo.server.service.HouseResourcesService;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
-@Service(version = "1.0.0")
+@Service(version = "1.0.0") // 这是dubbo服务，对外进行暴露
 public class ApiHouseResourcesServiceImpl implements ApiHouseResourcesService {
 
     @Autowired
